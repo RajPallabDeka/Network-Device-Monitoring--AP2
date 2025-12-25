@@ -1,7 +1,5 @@
 # Network Device Monitoring Automation (AP2)
 
----
-
 ## Project Overview
 
 This project is a **Python-based network automation tool** designed to **monitor the reachability of network devices** using the **Netmiko** library.
