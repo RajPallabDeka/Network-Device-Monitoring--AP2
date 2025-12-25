@@ -1,0 +1,16 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs and outputs
+*.log
+*.txt
+Logs/
+
+# Office / temp files
+*.odt
+.~lock.*
+
+# Virtual env / secrets
+.env
+venv/
