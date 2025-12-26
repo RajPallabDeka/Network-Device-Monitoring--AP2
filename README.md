@@ -7,6 +7,7 @@ Netmiko is a Python library that automates network devices over **SSH and Telnet
 The script compares the **previously stored device status** with the **current status** obtained during execution. After comparison, the previous status is overwritten with the current status. An email alert is triggered **only when a status change is detected** (UP ↔ DOWN ↔ PACKET DROP).
 The script is automated using **cron**, scheduled to run **every 5 minutes, 24×7**, making it suitable for **real-world NOC-style monitoring scenarios**.
 The script also includes exception handling for SSH timeouts,Authentication failures,Unreachable devices,SMTP connection issues.
+
 ---
 
 ## Objectives
@@ -26,7 +27,7 @@ The script also includes exception handling for SSH timeouts,Authentication fail
 - **Netmiko** – SSH connection , Sending commands , receiving output 
 - **smtplib** – Connecting to smtp server and sending email  
 - **email.message** - Email formatting 
-- **ThreadPoolExecutor** – Parallel execution of code
+- **concurrent.futures(ThreadPoolExecutor)** – Parallel execution of code
 - **time** - for timestamps 
 - **os** - specify file locations 
 - **Linux Cron** – Task scheduling
@@ -67,19 +68,20 @@ The script also includes exception handling for SSH timeouts,Authentication fail
 ## Project Structure
 
 Network-Device-Monitoring--AP2/
-├── Photos/
-│   ├── Device_Status_history.png
-│   ├── Device_Status_history_1.png
-│   ├── Email_alerts.png
-│   └── contab.png
-│
-├── Scripts /
-│   ├── Current_Status.py
-│   └── InitialStatus.py
-│
-├── .gitignore
-├── LICENSE
-└── README.md
+                              ├── Photos/
+                              │   ├── Device_Status_history.png
+                              │   ├── Device_Status_history_1.png
+                              │   ├── Email_alerts.png
+                              │   └── contab.png
+                              │
+                              ├── Scripts /
+                              │   ├── Current_Status.py
+                              │   └── InitialStatus.py
+                              │
+                              ├── .gitignore
+                              ├── LICENSE
+                              └── README.md
+
 ---
 
 ## Challenges Faced and the solutions 
