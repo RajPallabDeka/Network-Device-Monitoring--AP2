@@ -66,7 +66,7 @@ The script also includes exception handling for SSH timeouts,Authentication fail
 ---
 
 ## Project Structure
-
+```
 Network-Device-Monitoring--AP2/
                               ├── Photos/
                               │   ├── Device_Status_history.png
@@ -81,7 +81,7 @@ Network-Device-Monitoring--AP2/
                               ├── .gitignore
                               ├── LICENSE
                               └── README.md
-
+```
 ---
 
 ## Challenges Faced and the solutions 
