@@ -127,7 +127,7 @@ If the script path contains spaces, it must be enclosed in double quotes (" ") t
 Raj Pallab Deka
 💼 Current Role: [Network Field Engineer], [Coforge] , [Under Government NIC-NKN Project]
 🌐 Network Automation & Cybersecurity Enthusiast
-🔗 GitHub: https://github.com/RajPallabDeka 🔗 LinkedIn: https://www.linkedin.com/in/your-profile
+🔗 GitHub: https://github.com/RajPallabDeka 🔗 LinkedIn: https://www.linkedin.com/in/raj-pallab-deka-604b33276/
 
 ---
 
